@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    
+   <!-- FORM -->
+    <h1>Our Form!</h1>
+    <hr>
+    
+    <form method="POST" action="https://formspree.io/maria.mysak97@ukr.net">
+        <label for="user-name"> User name:
+            <input type="text" name="name" id="user-name" placeholder="Your name" required>
+        </label><br><br>
+        
+        <label for="user-surname"> User surname:
+            <input type="text" name="surname" id="user-surname" placeholder="Your surname" required>
+        </label><br><br>
+        
+        <label for="date">Birthday:
+            <input type="date" id="date" name="bday">
+        </label><br><br>
+        
+        <label for="user-email">User e-mail:
+            <input type="text" id="user-email" name="e-mail" placeholder="Your e-mail" required>
+        </label><br><br>
+        
+         <label for="country">Choose your country:
+             <select id="country">
+                  <option value="England">England</option>
+                  <option value="France">France</option>
+                  <option value="Germany">Germany</option>
+                  <option value="Ireland">Ireland</option>
+                  <option value="Norway">Norway</option>
+                  <option value="Ukraine">Ukraine</option>
+             </select>
+        </label><br><br>
+        
+         <label for="phone">Telephone:
+            <input type="tel" id="phone" name="usrtel" placeholder="123-456-7890">
+         </label>
+         <hr>
+         
+         <span><ins>Gender:</ins></span><br>
+         <label for="radio1">
+             <input type="radio" id="radio1" name="gender" value="male"> Male
+         </label>
+         
+         <label for="radio2">
+             <input type="radio" name="gender" id="radio2" value="female"> Female<br>
+         </label><br>
+         
+         <span><ins>Age:</ins></span><br>
+         <label for="radio3">
+             <input type="radio" id="radio3" name="age"> &lt;18
+         </label><br>
+         
+         <label for="radio4">
+             <input type="radio" id="radio4" name="age"> 18-30 
+         </label><br>
+         
+         <label for="radio5">
+             <input type="radio" id="radio5" name="age"> 30-40 
+         </label><br>
+         
+         <label for="radio6">
+             <input type="radio" id="radio6" name="age"> 40-50 
+         </label><br>
+         
+         <label for="radio7">
+             <input type="radio" id="radio7" name="age"> &gt;50 
+         </label><br><br>
+         
+         <span><ins>Do you have an account in one or more social networks:</ins></span><br>
+         <label for="check1">
+             <input type="checkbox" id="check1" name="checkbox1"> Facebook
+         </label><br>
+         
+         <label for="check2">
+             <input type="checkbox" id="check2" name="checkbox2">Twitter
+         </label><br>
+         
+         <label for="check3">
+             <input type="checkbox" id="check3" name="checkbox3">Goodle+
+         </label><br>
+         
+         <label for="check4">
+             <input type="checkbox" id="check4" name="checkbox4"> Your own option:
+         </label>
+         <input type="text" name="own-option"><br><br>
+         
+         <span><ins>Are you the first time on our site?</ins></span><br>
+         <label for="radio">
+             <input type="radio" id="radio" name="time"> Yes
+         </label>
+         
+         <label for="radio8">
+             <input type="radio" name="time" id="radio8"> No <br>
+         </label><br>
+         
+        <label for="ques1">Do you like plants? Why? Why not?
+        <input type="text" name="question" id="ques1">
+        </label><br><br>
+        
+        <label for="ques2">How much house plants do you have?
+        <input type="text" name="question" id="ques2">
+        </label><br><br>
+        
+        <label for="ques3">Do you like the variety of plants in our strore?
+        <input type="text" name="question" id="ques3">
+        </label><br><br>
+        
+        <span><ins>Do you want to recieve the information about our store on your e-mail?</ins></span><br>
+         <label for="radio9">
+             <input type="radio" id="radio9" name="time"> Yes
+         </label>
+         
+         <label for="radio0">
+             <input type="radio" name="time" id="radio0"> No <br>
+         </label><br>
+        <hr>
+         
+          <input type="submit" name="button" value="Send">
+          <input type="reset" value ="Cancel">
+    </form>
+    
+</body>
+</html>
